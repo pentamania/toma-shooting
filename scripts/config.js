@@ -58,6 +58,9 @@ if (phina) {
   // var MAX_SHOT_ENERGY = SHOT_POWERUP_BORDER * MAX_SHOT_LEVEL;
   // var SHOT_ANGLE_UNIT = 12;
 
+  var TWITTER_MESSAGE = GAME_TITLE;
+  var TWITTER_HASH_TAGS = ['phina_js', 'phina_gl2d'];
+
   /**
    * 敵データ
    * @param {string} texture [画像テクスチャキー名]

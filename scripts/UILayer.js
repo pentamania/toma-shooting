@@ -222,12 +222,10 @@ phina.define('ResultLayer', {
     var indexPath = href.replace(filename, "index");
 
     this.shareButton.onclick = function() {
-      var message = GAME_TITLE;
-      var hashtags = ['phina_js', 'phina-gl2d'];
-      var text = '{0} 点: {1} \n'.format(message, score);
+      var text = '{0}\n点: {1}\n'.format(TWITTER_MESSAGE, score);
       var url = phina.social.Twitter.createURL({
         text: text,
-        hashtags: hashtags,
+        hashtags: TWITTER_HASH_TAGS,
         url: indexPath,
       });
       window.open(url, 'share window', 'width=480, height=320');
