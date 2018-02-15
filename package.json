@@ -7,8 +7,6 @@
     "example": "examples"
   },
   "scripts": {
-    "build": "gulp",
-    "watch": "gulp watch"
   },
   "keywords": [
     "phina.js"
